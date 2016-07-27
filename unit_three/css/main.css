@@ -1,18 +1,21 @@
 body {
   text-align: center;
   background: url("../images/israelbjj.JPG");
-  background-size: cover;
+  background-repeat:no-repeat;
   color: #fff;
-  font-family: Helvetica;
+  font-family: Ferro Rosso;
+
+  background-size: cover;
+  background-position: center;
+
+
 }
 
 div {
     height: 200px;
     width: 400px;
-    /*background: black;*/
-
     position: fixed;
-    top: 50%;
+    top: 25%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
@@ -20,6 +23,12 @@ div {
 
 #slogan {
 	font-style: italic;
-	font-size: 21px;
+	font-size: 32px;
+	color: white;
 }
 
+h1 {
+	font-size: 64px;
+	color: red;
+	/*width: 400px;*/
+}
